@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace NeutrinoAPISDK\DTOs\IP\Info\Response;
 
+/** @extends \Dmorenof\SdkRuntime\Map<\NeutrinoAPISDK\DTOs\Timezone> */
 final class TimezoneMap extends \Dmorenof\SdkRuntime\Map
 {
     protected const string VALUE_TYPE = '\\NeutrinoAPISDK\\DTOs\\Timezone';
