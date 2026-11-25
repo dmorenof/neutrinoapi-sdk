@@ -7,29 +7,29 @@ namespace NeutrinoAPISDK\Requests\ImageResize;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'imageUrl',
-    'width',
-];
+        'imageUrl',
+        'width',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'bg-color' => 'bgColor',
-    'image-url' => 'imageUrl',
-    'resize-mode' => 'resizeMode',
-];
+        'bg-color' => 'bgColor',
+        'image-url' => 'imageUrl',
+        'resize-mode' => 'resizeMode',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'bgColor' => 'bg-color',
-    'imageUrl' => 'image-url',
-    'resizeMode' => 'resize-mode',
-];
+        'bgColor' => 'bg-color',
+        'imageUrl' => 'image-url',
+        'resizeMode' => 'resize-mode',
+    ];
 
     protected const array VALIDATION = [
-    'height' => [
-        'format' => 'int32',
-    ],
-    'width' => [
-        'format' => 'int32',
-    ],
-];
+        'height' => [
+            'format' => 'int32',
+        ],
+        'width' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The image background color in hexadecimal notation (e.g. #0000ff). For PNG output the special value of 'transparent' can also be used. For JPG output the default is black (#000000)

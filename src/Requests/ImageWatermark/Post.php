@@ -7,34 +7,34 @@ namespace NeutrinoAPISDK\Requests\ImageWatermark;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'imageUrl',
-    'watermarkUrl',
-];
+        'imageUrl',
+        'watermarkUrl',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'bg-color' => 'bgColor',
-    'image-url' => 'imageUrl',
-    'resize-mode' => 'resizeMode',
-    'watermark-url' => 'watermarkUrl',
-];
+        'bg-color' => 'bgColor',
+        'image-url' => 'imageUrl',
+        'resize-mode' => 'resizeMode',
+        'watermark-url' => 'watermarkUrl',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'bgColor' => 'bg-color',
-    'imageUrl' => 'image-url',
-    'resizeMode' => 'resize-mode',
-    'watermarkUrl' => 'watermark-url',
-];
+        'bgColor' => 'bg-color',
+        'imageUrl' => 'image-url',
+        'resizeMode' => 'resize-mode',
+        'watermarkUrl' => 'watermark-url',
+    ];
 
     protected const array VALIDATION = [
-    'height' => [
-        'format' => 'int32',
-    ],
-    'opacity' => [
-        'format' => 'int32',
-    ],
-    'width' => [
-        'format' => 'int32',
-    ],
-];
+        'height' => [
+            'format' => 'int32',
+        ],
+        'opacity' => [
+            'format' => 'int32',
+        ],
+        'width' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The image background color in hexadecimal notation (e.g. #0000ff). For PNG output the special value of 'transparent' can also be used. For JPG output the default is black (#000000)

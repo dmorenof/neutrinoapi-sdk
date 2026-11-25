@@ -16,5 +16,4 @@ final class QrCode extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\QrCode::class)->post($payload);
     }
-
 }

@@ -16,5 +16,4 @@ final class SmsVerify extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\SmsVerify::class)->post($payload);
     }
-
 }

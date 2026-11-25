@@ -16,5 +16,4 @@ final class EmailValidate extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\EmailValidate::class)->get($params);
     }
-
 }

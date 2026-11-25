@@ -16,5 +16,4 @@ final class PhonePlayback extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\PhonePlayback::class)->post($payload);
     }
-
 }

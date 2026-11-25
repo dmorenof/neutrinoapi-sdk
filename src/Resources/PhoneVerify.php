@@ -67,5 +67,4 @@ final class PhoneVerify extends \NeutrinoAPISDK\Client
         $result = $this->executeArguments(self::operation(self::POST), body: $payload);
         return $result;
     }
-
 }

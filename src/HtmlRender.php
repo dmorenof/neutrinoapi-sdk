@@ -16,5 +16,4 @@ final class HtmlRender extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\HtmlRender::class)->post($payload);
     }
-
 }

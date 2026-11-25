@@ -16,5 +16,4 @@ final class BinListDownload extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\BinListDownload::class)->get($params);
     }
-
 }

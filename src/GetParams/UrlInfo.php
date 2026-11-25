@@ -7,37 +7,37 @@ namespace NeutrinoAPISDK\GetParams;
 final class UrlInfo extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'url',
-];
+        'url',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'fetch-content' => 'fetchContent',
-        'ignore-certificate-errors' => 'ignoreCertificateErrors',
-        'retry' => 'retry',
-        'timeout' => 'timeout',
-        'url' => 'url',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'fetch-content' => 'fetchContent',
+            'ignore-certificate-errors' => 'ignoreCertificateErrors',
+            'retry' => 'retry',
+            'timeout' => 'timeout',
+            'url' => 'url',
+        ],
+        'header' => [],
+    ];
 
     protected const array PROPERTY_MAP = [
-    'fetch-content' => 'fetchContent',
-    'ignore-certificate-errors' => 'ignoreCertificateErrors',
-];
+        'fetch-content' => 'fetchContent',
+        'ignore-certificate-errors' => 'ignoreCertificateErrors',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'fetchContent' => 'fetch-content',
-    'ignoreCertificateErrors' => 'ignore-certificate-errors',
-];
+        'fetchContent' => 'fetch-content',
+        'ignoreCertificateErrors' => 'ignore-certificate-errors',
+    ];
 
     protected const array VALIDATION = [
-    'retry' => [
-        'format' => 'int32',
-    ],
-    'timeout' => [
-        'format' => 'int32',
-    ],
-];
+        'retry' => [
+            'format' => 'int32',
+        ],
+        'timeout' => [
+            'format' => 'int32',
+        ],
+    ];
 
     public ?bool $fetchContent;
     public ?bool $ignoreCertificateErrors;

@@ -16,5 +16,4 @@ final class ImageWatermark extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\ImageWatermark::class)->post($payload);
     }
-
 }

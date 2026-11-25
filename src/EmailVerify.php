@@ -16,5 +16,4 @@ final class EmailVerify extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\EmailVerify::class)->get($params);
     }
-
 }

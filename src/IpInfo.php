@@ -16,5 +16,4 @@ final class IpInfo extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\IpInfo::class)->get($params);
     }
-
 }

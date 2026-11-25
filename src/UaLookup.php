@@ -16,5 +16,4 @@ final class UaLookup extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\UaLookup::class)->get($params);
     }
-
 }

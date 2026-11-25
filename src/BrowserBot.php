@@ -16,5 +16,4 @@ final class BrowserBot extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\BrowserBot::class)->post($payload);
     }
-
 }

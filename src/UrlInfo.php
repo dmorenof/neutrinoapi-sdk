@@ -16,5 +16,4 @@ final class UrlInfo extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\UrlInfo::class)->get($params);
     }
-
 }

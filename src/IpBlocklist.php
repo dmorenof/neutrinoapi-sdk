@@ -16,5 +16,4 @@ final class IpBlocklist extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\IpBlocklist::class)->get($params);
     }
-
 }

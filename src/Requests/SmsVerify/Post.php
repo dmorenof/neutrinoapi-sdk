@@ -7,38 +7,38 @@ namespace NeutrinoAPISDK\Requests\SmsVerify;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'number',
-];
+        'number',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'code-length' => 'codeLength',
-    'country-code' => 'countryCode',
-    'language-code' => 'languageCode',
-    'limit-ttl' => 'limitTtl',
-    'security-code' => 'securityCode',
-];
+        'code-length' => 'codeLength',
+        'country-code' => 'countryCode',
+        'language-code' => 'languageCode',
+        'limit-ttl' => 'limitTtl',
+        'security-code' => 'securityCode',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'codeLength' => 'code-length',
-    'countryCode' => 'country-code',
-    'languageCode' => 'language-code',
-    'limitTtl' => 'limit-ttl',
-    'securityCode' => 'security-code',
-];
+        'codeLength' => 'code-length',
+        'countryCode' => 'country-code',
+        'languageCode' => 'language-code',
+        'limitTtl' => 'limit-ttl',
+        'securityCode' => 'security-code',
+    ];
 
     protected const array VALIDATION = [
-    'codeLength' => [
-        'format' => 'int32',
-    ],
-    'limit' => [
-        'format' => 'int32',
-    ],
-    'limitTtl' => [
-        'format' => 'int32',
-    ],
-    'securityCode' => [
-        'format' => 'int32',
-    ],
-];
+        'codeLength' => [
+            'format' => 'int32',
+        ],
+        'limit' => [
+            'format' => 'int32',
+        ],
+        'limitTtl' => [
+            'format' => 'int32',
+        ],
+        'securityCode' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The number of digits to use in the security code (must be between 4 and 12)

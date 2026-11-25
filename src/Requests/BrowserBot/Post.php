@@ -7,26 +7,26 @@ namespace NeutrinoAPISDK\Requests\BrowserBot;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'url',
-];
+        'url',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'ignore-certificate-errors' => 'ignoreCertificateErrors',
-    'user-agent' => 'userAgent',
-];
+        'ignore-certificate-errors' => 'ignoreCertificateErrors',
+        'user-agent' => 'userAgent',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'ignoreCertificateErrors' => 'ignore-certificate-errors',
-    'userAgent' => 'user-agent',
-];
+        'ignoreCertificateErrors' => 'ignore-certificate-errors',
+        'userAgent' => 'user-agent',
+    ];
 
     protected const array VALIDATION = [
-    'delay' => [
-        'format' => 'int32',
-    ],
-    'timeout' => [
-        'format' => 'int32',
-    ],
-];
+        'delay' => [
+            'format' => 'int32',
+        ],
+        'timeout' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * Delay in seconds to wait before capturing any page data, executing selectors or JavaScript

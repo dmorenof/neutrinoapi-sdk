@@ -16,5 +16,4 @@ final class GeocodeReverse extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\GeocodeReverse::class)->get($params);
     }
-
 }

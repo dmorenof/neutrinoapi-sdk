@@ -16,5 +16,4 @@ final class BadWordFilter extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\BadWordFilter::class)->post($payload);
     }
-
 }

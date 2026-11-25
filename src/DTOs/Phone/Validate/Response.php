@@ -10,40 +10,40 @@ namespace NeutrinoAPISDK\DTOs\Phone\Validate;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'country',
-    'countryCode',
-    'countryCode3',
-    'currencyCode',
-    'internationalCallingCode',
-    'internationalNumber',
-    'isMobile',
-    'localNumber',
-    'location',
-    'prefixNetwork',
-    'type',
-    'valid',
-];
+        'country',
+        'countryCode',
+        'countryCode3',
+        'currencyCode',
+        'internationalCallingCode',
+        'internationalNumber',
+        'isMobile',
+        'localNumber',
+        'location',
+        'prefixNetwork',
+        'type',
+        'valid',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'country-code' => 'countryCode',
-    'country-code3' => 'countryCode3',
-    'currency-code' => 'currencyCode',
-    'international-calling-code' => 'internationalCallingCode',
-    'international-number' => 'internationalNumber',
-    'is-mobile' => 'isMobile',
-    'local-number' => 'localNumber',
-    'prefix-network' => 'prefixNetwork',
-];
+        'country-code' => 'countryCode',
+        'country-code3' => 'countryCode3',
+        'currency-code' => 'currencyCode',
+        'international-calling-code' => 'internationalCallingCode',
+        'international-number' => 'internationalNumber',
+        'is-mobile' => 'isMobile',
+        'local-number' => 'localNumber',
+        'prefix-network' => 'prefixNetwork',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'countryCode' => 'country-code',
-    'countryCode3' => 'country-code3',
-    'currencyCode' => 'currency-code',
-    'internationalCallingCode' => 'international-calling-code',
-    'internationalNumber' => 'international-number',
-    'isMobile' => 'is-mobile',
-    'localNumber' => 'local-number',
-    'prefixNetwork' => 'prefix-network',
-];
+        'countryCode' => 'country-code',
+        'countryCode3' => 'country-code3',
+        'currencyCode' => 'currency-code',
+        'internationalCallingCode' => 'international-calling-code',
+        'internationalNumber' => 'international-number',
+        'isMobile' => 'is-mobile',
+        'localNumber' => 'local-number',
+        'prefixNetwork' => 'prefix-network',
+    ];
 
     /**
      * The phone number country

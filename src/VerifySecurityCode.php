@@ -16,5 +16,4 @@ final class VerifySecurityCode extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\VerifySecurityCode::class)->get($params);
     }
-
 }

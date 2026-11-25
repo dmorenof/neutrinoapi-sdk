@@ -10,26 +10,26 @@ namespace NeutrinoAPISDK\DTOs;
 final class HostReputationResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'host',
-    'isListed',
-    'listCount',
-    'lists',
-];
+        'host',
+        'isListed',
+        'listCount',
+        'lists',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'is-listed' => 'isListed',
-    'list-count' => 'listCount',
-];
+        'is-listed' => 'isListed',
+        'list-count' => 'listCount',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'isListed' => 'is-listed',
-    'listCount' => 'list-count',
-];
+        'isListed' => 'is-listed',
+        'listCount' => 'list-count',
+    ];
 
     protected const array VALIDATION = [
-    'listCount' => [
-        'format' => 'int32',
-    ],
-];
+        'listCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The IP address or host name

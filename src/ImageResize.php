@@ -16,5 +16,4 @@ final class ImageResize extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\ImageResize::class)->post($payload);
     }
-
 }

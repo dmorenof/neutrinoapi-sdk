@@ -16,5 +16,4 @@ final class IpProbe extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\IpProbe::class)->get($params);
     }
-
 }

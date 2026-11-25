@@ -12,13 +12,13 @@ namespace NeutrinoAPISDK\DTOs;
 final class Timezone extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'abbr',
-    'date',
-    'id',
-    'name',
-    'offset',
-    'time',
-];
+        'abbr',
+        'date',
+        'id',
+        'name',
+        'offset',
+        'time',
+    ];
 
     /**
      * The time zone abbreviation

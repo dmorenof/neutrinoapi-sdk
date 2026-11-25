@@ -10,30 +10,30 @@ namespace NeutrinoAPISDK\DTOs;
 final class BadWordFilterResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'badWordsList',
-    'badWordsTotal',
-    'censoredContent',
-    'isBad',
-];
+        'badWordsList',
+        'badWordsTotal',
+        'censoredContent',
+        'isBad',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'bad-words-list' => 'badWordsList',
-    'bad-words-total' => 'badWordsTotal',
-    'censored-content' => 'censoredContent',
-    'is-bad' => 'isBad',
-];
+        'bad-words-list' => 'badWordsList',
+        'bad-words-total' => 'badWordsTotal',
+        'censored-content' => 'censoredContent',
+        'is-bad' => 'isBad',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'badWordsList' => 'bad-words-list',
-    'badWordsTotal' => 'bad-words-total',
-    'censoredContent' => 'censored-content',
-    'isBad' => 'is-bad',
-];
+        'badWordsList' => 'bad-words-list',
+        'badWordsTotal' => 'bad-words-total',
+        'censoredContent' => 'censored-content',
+        'isBad' => 'is-bad',
+    ];
 
     protected const array VALIDATION = [
-    'badWordsTotal' => [
-        'format' => 'int32',
-    ],
-];
+        'badWordsTotal' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * An array of the bad words found

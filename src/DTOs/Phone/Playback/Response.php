@@ -10,16 +10,16 @@ namespace NeutrinoAPISDK\DTOs\Phone\Playback;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'calling',
-    'numberValid',
-];
+        'calling',
+        'numberValid',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'number-valid' => 'numberValid',
-];
+        'number-valid' => 'numberValid',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'numberValid' => 'number-valid',
-];
+        'numberValid' => 'number-valid',
+    ];
 
     /**
      * True if the call is being made now

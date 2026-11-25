@@ -10,8 +10,8 @@ namespace NeutrinoAPISDK\DTOs;
 final class VerifySecurityCodeResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'verified',
-];
+        'verified',
+    ];
 
     /**
      * True if the code is valid

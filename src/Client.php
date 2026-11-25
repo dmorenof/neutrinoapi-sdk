@@ -7,19 +7,19 @@ namespace NeutrinoAPISDK;
 class Client extends \Dmorenof\SdkRuntime\ApiClient
 {
     protected const array SECURITY_SCHEMES = [
-    'api-key' => [
-        'type' => 'apiKey',
-        'scheme' => null,
-        'location' => 'header',
-        'parameterName' => 'api-key',
-    ],
-    'user-id' => [
-        'type' => 'apiKey',
-        'scheme' => null,
-        'location' => 'header',
-        'parameterName' => 'user-id',
-    ],
-];
+        'api-key' => [
+            'type' => 'apiKey',
+            'scheme' => null,
+            'location' => 'header',
+            'parameterName' => 'api-key',
+        ],
+        'user-id' => [
+            'type' => 'apiKey',
+            'scheme' => null,
+            'location' => 'header',
+            'parameterName' => 'user-id',
+        ],
+    ];
 
     private static ?self $currentConnection = null;
 

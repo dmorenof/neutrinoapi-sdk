@@ -10,15 +10,15 @@ namespace NeutrinoAPISDK\DTOs;
 final class APIError extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'apiError',
-    'apiErrorMsg',
-];
+        'apiError',
+        'apiErrorMsg',
+    ];
 
     protected const array VALIDATION = [
-    'apiError' => [
-        'format' => 'int32',
-    ],
-];
+        'apiError' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * API error code. If set and > 0 then an API error has occurred your request could not be completed

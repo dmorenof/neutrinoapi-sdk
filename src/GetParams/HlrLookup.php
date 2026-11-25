@@ -7,23 +7,23 @@ namespace NeutrinoAPISDK\GetParams;
 final class HlrLookup extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'number',
-];
+        'number',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'country-code' => 'countryCode',
-        'number' => 'number',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'country-code' => 'countryCode',
+            'number' => 'number',
+        ],
+        'header' => [],
+    ];
 
     protected const array PROPERTY_MAP = [
-    'country-code' => 'countryCode',
-];
+        'country-code' => 'countryCode',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'countryCode' => 'country-code',
-];
+        'countryCode' => 'country-code',
+    ];
 
     public ?string $countryCode;
     public string $number;

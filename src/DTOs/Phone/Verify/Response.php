@@ -10,19 +10,19 @@ namespace NeutrinoAPISDK\DTOs\Phone\Verify;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'calling',
-    'numberValid',
-    'securityCode',
-];
+        'calling',
+        'numberValid',
+        'securityCode',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'number-valid' => 'numberValid',
-    'security-code' => 'securityCode',
-];
+        'number-valid' => 'numberValid',
+        'security-code' => 'securityCode',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'numberValid' => 'number-valid',
-    'securityCode' => 'security-code',
-];
+        'numberValid' => 'number-valid',
+        'securityCode' => 'security-code',
+    ];
 
     /**
      * True if the call is being made now

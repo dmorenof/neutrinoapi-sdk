@@ -10,42 +10,42 @@ namespace NeutrinoAPISDK\DTOs;
 final class Blacklist extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'isListed',
-    'listHost',
-    'listName',
-    'listRating',
-    'responseTime',
-    'returnCode',
-    'txtRecord',
-];
+        'isListed',
+        'listHost',
+        'listName',
+        'listRating',
+        'responseTime',
+        'returnCode',
+        'txtRecord',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'is-listed' => 'isListed',
-    'list-host' => 'listHost',
-    'list-name' => 'listName',
-    'list-rating' => 'listRating',
-    'response-time' => 'responseTime',
-    'return-code' => 'returnCode',
-    'txt-record' => 'txtRecord',
-];
+        'is-listed' => 'isListed',
+        'list-host' => 'listHost',
+        'list-name' => 'listName',
+        'list-rating' => 'listRating',
+        'response-time' => 'responseTime',
+        'return-code' => 'returnCode',
+        'txt-record' => 'txtRecord',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'isListed' => 'is-listed',
-    'listHost' => 'list-host',
-    'listName' => 'list-name',
-    'listRating' => 'list-rating',
-    'responseTime' => 'response-time',
-    'returnCode' => 'return-code',
-    'txtRecord' => 'txt-record',
-];
+        'isListed' => 'is-listed',
+        'listHost' => 'list-host',
+        'listName' => 'list-name',
+        'listRating' => 'list-rating',
+        'responseTime' => 'response-time',
+        'returnCode' => 'return-code',
+        'txtRecord' => 'txt-record',
+    ];
 
     protected const array VALIDATION = [
-    'listRating' => [
-        'format' => 'int32',
-    ],
-    'responseTime' => [
-        'format' => 'int32',
-    ],
-];
+        'listRating' => [
+            'format' => 'int32',
+        ],
+        'responseTime' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * True if the host is currently black-listed

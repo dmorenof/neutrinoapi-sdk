@@ -16,5 +16,4 @@ final class PhoneValidate extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\PhoneValidate::class)->get($params);
     }
-
 }

@@ -16,5 +16,4 @@ final class PhoneVerify extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\PhoneVerify::class)->post($payload);
     }
-
 }

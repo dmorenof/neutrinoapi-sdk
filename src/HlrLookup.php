@@ -16,5 +16,4 @@ final class HlrLookup extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\HlrLookup::class)->get($params);
     }
-
 }

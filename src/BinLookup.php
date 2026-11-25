@@ -16,5 +16,4 @@ final class BinLookup extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\BinLookup::class)->get($params);
     }
-
 }

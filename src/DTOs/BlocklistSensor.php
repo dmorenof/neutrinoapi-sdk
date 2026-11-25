@@ -10,16 +10,16 @@ namespace NeutrinoAPISDK\DTOs;
 final class BlocklistSensor extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'blocklist',
-    'description',
-    'id',
-];
+        'blocklist',
+        'description',
+        'id',
+    ];
 
     protected const array VALIDATION = [
-    'id' => [
-        'format' => 'int32',
-    ],
-];
+        'id' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The primary blocklist category this sensor belongs to

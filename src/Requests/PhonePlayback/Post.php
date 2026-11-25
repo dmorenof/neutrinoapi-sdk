@@ -7,27 +7,27 @@ namespace NeutrinoAPISDK\Requests\PhonePlayback;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'audioUrl',
-    'number',
-];
+        'audioUrl',
+        'number',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'audio-url' => 'audioUrl',
-    'limit-ttl' => 'limitTtl',
-];
+        'audio-url' => 'audioUrl',
+        'limit-ttl' => 'limitTtl',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'audioUrl' => 'audio-url',
-    'limitTtl' => 'limit-ttl',
-];
+        'audioUrl' => 'audio-url',
+        'limitTtl' => 'limit-ttl',
+    ];
 
     protected const array VALIDATION = [
-    'limit' => [
-        'format' => 'int32',
-    ],
-    'limitTtl' => [
-        'format' => 'int32',
-    ],
-];
+        'limit' => [
+            'format' => 'int32',
+        ],
+        'limitTtl' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * A URL to a valid audio file. Accepted audio formats are: <ul> <li>MP3</li> <li>WAV</li> <li>OGG</li> </ul>You can use the following MP3 URL for testing: <br>https://www.neutrinoapi.com/test-files/test1.mp3

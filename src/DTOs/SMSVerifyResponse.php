@@ -10,19 +10,19 @@ namespace NeutrinoAPISDK\DTOs;
 final class SMSVerifyResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'numberValid',
-    'securityCode',
-    'sent',
-];
+        'numberValid',
+        'securityCode',
+        'sent',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'number-valid' => 'numberValid',
-    'security-code' => 'securityCode',
-];
+        'number-valid' => 'numberValid',
+        'security-code' => 'securityCode',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'numberValid' => 'number-valid',
-    'securityCode' => 'security-code',
-];
+        'numberValid' => 'number-valid',
+        'securityCode' => 'security-code',
+    ];
 
     /**
      * True if this a valid phone number

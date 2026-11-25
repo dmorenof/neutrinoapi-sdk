@@ -10,26 +10,26 @@ namespace NeutrinoAPISDK\DTOs;
 final class ConvertResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'fromType',
-    'fromValue',
-    'result',
-    'resultFloat',
-    'toType',
-    'valid',
-];
+        'fromType',
+        'fromValue',
+        'result',
+        'resultFloat',
+        'toType',
+        'valid',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'from-type' => 'fromType',
-    'from-value' => 'fromValue',
-    'result-float' => 'resultFloat',
-    'to-type' => 'toType',
-];
+        'from-type' => 'fromType',
+        'from-value' => 'fromValue',
+        'result-float' => 'resultFloat',
+        'to-type' => 'toType',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'fromType' => 'from-type',
-    'fromValue' => 'from-value',
-    'resultFloat' => 'result-float',
-    'toType' => 'to-type',
-];
+        'fromType' => 'from-type',
+        'fromValue' => 'from-value',
+        'resultFloat' => 'result-float',
+        'toType' => 'to-type',
+    ];
 
     /**
      * The type of the value being converted from

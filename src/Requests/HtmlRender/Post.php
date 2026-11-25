@@ -7,48 +7,48 @@ namespace NeutrinoAPISDK\Requests\HtmlRender;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-];
+        'content',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'ignore-certificate-errors' => 'ignoreCertificateErrors',
-    'image-height' => 'imageHeight',
-    'image-width' => 'imageWidth',
-    'margin-bottom' => 'marginBottom',
-    'margin-left' => 'marginLeft',
-    'margin-right' => 'marginRight',
-    'margin-top' => 'marginTop',
-    'page-height' => 'pageHeight',
-    'page-size' => 'pageSize',
-    'page-width' => 'pageWidth',
-];
+        'ignore-certificate-errors' => 'ignoreCertificateErrors',
+        'image-height' => 'imageHeight',
+        'image-width' => 'imageWidth',
+        'margin-bottom' => 'marginBottom',
+        'margin-left' => 'marginLeft',
+        'margin-right' => 'marginRight',
+        'margin-top' => 'marginTop',
+        'page-height' => 'pageHeight',
+        'page-size' => 'pageSize',
+        'page-width' => 'pageWidth',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'ignoreCertificateErrors' => 'ignore-certificate-errors',
-    'imageHeight' => 'image-height',
-    'imageWidth' => 'image-width',
-    'marginBottom' => 'margin-bottom',
-    'marginLeft' => 'margin-left',
-    'marginRight' => 'margin-right',
-    'marginTop' => 'margin-top',
-    'pageHeight' => 'page-height',
-    'pageSize' => 'page-size',
-    'pageWidth' => 'page-width',
-];
+        'ignoreCertificateErrors' => 'ignore-certificate-errors',
+        'imageHeight' => 'image-height',
+        'imageWidth' => 'image-width',
+        'marginBottom' => 'margin-bottom',
+        'marginLeft' => 'margin-left',
+        'marginRight' => 'margin-right',
+        'marginTop' => 'margin-top',
+        'pageHeight' => 'page-height',
+        'pageSize' => 'page-size',
+        'pageWidth' => 'page-width',
+    ];
 
     protected const array VALIDATION = [
-    'delay' => [
-        'format' => 'int32',
-    ],
-    'imageHeight' => [
-        'format' => 'int32',
-    ],
-    'imageWidth' => [
-        'format' => 'int32',
-    ],
-    'timeout' => [
-        'format' => 'int32',
-    ],
-];
+        'delay' => [
+            'format' => 'int32',
+        ],
+        'imageHeight' => [
+            'format' => 'int32',
+        ],
+        'imageWidth' => [
+            'format' => 'int32',
+        ],
+        'timeout' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The HTML content. This can be either a URL to load from, a file upload (multipart/form-data) or an HTML content string

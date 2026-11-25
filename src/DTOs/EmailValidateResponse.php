@@ -10,34 +10,34 @@ namespace NeutrinoAPISDK\DTOs;
 final class EmailValidateResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'domain',
-    'domainError',
-    'email',
-    'isDisposable',
-    'isFreemail',
-    'isPersonal',
-    'provider',
-    'syntaxError',
-    'typosFixed',
-    'valid',
-];
+        'domain',
+        'domainError',
+        'email',
+        'isDisposable',
+        'isFreemail',
+        'isPersonal',
+        'provider',
+        'syntaxError',
+        'typosFixed',
+        'valid',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'domain-error' => 'domainError',
-    'is-disposable' => 'isDisposable',
-    'is-freemail' => 'isFreemail',
-    'is-personal' => 'isPersonal',
-    'syntax-error' => 'syntaxError',
-    'typos-fixed' => 'typosFixed',
-];
+        'domain-error' => 'domainError',
+        'is-disposable' => 'isDisposable',
+        'is-freemail' => 'isFreemail',
+        'is-personal' => 'isPersonal',
+        'syntax-error' => 'syntaxError',
+        'typos-fixed' => 'typosFixed',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'domainError' => 'domain-error',
-    'isDisposable' => 'is-disposable',
-    'isFreemail' => 'is-freemail',
-    'isPersonal' => 'is-personal',
-    'syntaxError' => 'syntax-error',
-    'typosFixed' => 'typos-fixed',
-];
+        'domainError' => 'domain-error',
+        'isDisposable' => 'is-disposable',
+        'isFreemail' => 'is-freemail',
+        'isPersonal' => 'is-personal',
+        'syntaxError' => 'syntax-error',
+        'typosFixed' => 'typos-fixed',
+    ];
 
     /**
      * The email domain

@@ -10,67 +10,67 @@ namespace NeutrinoAPISDK\DTOs\IP\Blocklist;
 final class Response extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'blocklists',
-    'cidr',
-    'ip',
-    'isBot',
-    'isDshield',
-    'isExploitBot',
-    'isHijacked',
-    'isListed',
-    'isMalware',
-    'isProxy',
-    'isSpamBot',
-    'isSpider',
-    'isSpyware',
-    'isTor',
-    'isVpn',
-    'lastSeen',
-    'listCount',
-    'sensors',
-];
+        'blocklists',
+        'cidr',
+        'ip',
+        'isBot',
+        'isDshield',
+        'isExploitBot',
+        'isHijacked',
+        'isListed',
+        'isMalware',
+        'isProxy',
+        'isSpamBot',
+        'isSpider',
+        'isSpyware',
+        'isTor',
+        'isVpn',
+        'lastSeen',
+        'listCount',
+        'sensors',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'is-bot' => 'isBot',
-    'is-dshield' => 'isDshield',
-    'is-exploit-bot' => 'isExploitBot',
-    'is-hijacked' => 'isHijacked',
-    'is-listed' => 'isListed',
-    'is-malware' => 'isMalware',
-    'is-proxy' => 'isProxy',
-    'is-spam-bot' => 'isSpamBot',
-    'is-spider' => 'isSpider',
-    'is-spyware' => 'isSpyware',
-    'is-tor' => 'isTor',
-    'is-vpn' => 'isVpn',
-    'last-seen' => 'lastSeen',
-    'list-count' => 'listCount',
-];
+        'is-bot' => 'isBot',
+        'is-dshield' => 'isDshield',
+        'is-exploit-bot' => 'isExploitBot',
+        'is-hijacked' => 'isHijacked',
+        'is-listed' => 'isListed',
+        'is-malware' => 'isMalware',
+        'is-proxy' => 'isProxy',
+        'is-spam-bot' => 'isSpamBot',
+        'is-spider' => 'isSpider',
+        'is-spyware' => 'isSpyware',
+        'is-tor' => 'isTor',
+        'is-vpn' => 'isVpn',
+        'last-seen' => 'lastSeen',
+        'list-count' => 'listCount',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'isBot' => 'is-bot',
-    'isDshield' => 'is-dshield',
-    'isExploitBot' => 'is-exploit-bot',
-    'isHijacked' => 'is-hijacked',
-    'isListed' => 'is-listed',
-    'isMalware' => 'is-malware',
-    'isProxy' => 'is-proxy',
-    'isSpamBot' => 'is-spam-bot',
-    'isSpider' => 'is-spider',
-    'isSpyware' => 'is-spyware',
-    'isTor' => 'is-tor',
-    'isVpn' => 'is-vpn',
-    'lastSeen' => 'last-seen',
-    'listCount' => 'list-count',
-];
+        'isBot' => 'is-bot',
+        'isDshield' => 'is-dshield',
+        'isExploitBot' => 'is-exploit-bot',
+        'isHijacked' => 'is-hijacked',
+        'isListed' => 'is-listed',
+        'isMalware' => 'is-malware',
+        'isProxy' => 'is-proxy',
+        'isSpamBot' => 'is-spam-bot',
+        'isSpider' => 'is-spider',
+        'isSpyware' => 'is-spyware',
+        'isTor' => 'is-tor',
+        'isVpn' => 'is-vpn',
+        'lastSeen' => 'last-seen',
+        'listCount' => 'list-count',
+    ];
 
     protected const array VALIDATION = [
-    'lastSeen' => [
-        'format' => 'int32',
-    ],
-    'listCount' => [
-        'format' => 'int32',
-    ],
-];
+        'lastSeen' => [
+            'format' => 'int32',
+        ],
+        'listCount' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * An array of strings indicating which blocklist categories this IP is listed on

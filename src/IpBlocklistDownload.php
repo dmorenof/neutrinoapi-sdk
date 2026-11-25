@@ -16,5 +16,4 @@ final class IpBlocklistDownload extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\IpBlocklistDownload::class)->get($params);
     }
-
 }

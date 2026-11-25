@@ -16,5 +16,4 @@ final class Convert extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\Convert::class)->get($params);
     }
-
 }

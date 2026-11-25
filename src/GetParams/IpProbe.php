@@ -7,15 +7,15 @@ namespace NeutrinoAPISDK\GetParams;
 final class IpProbe extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'ip',
-];
+        'ip',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'ip' => 'ip',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'ip' => 'ip',
+        ],
+        'header' => [],
+    ];
 
     public string $ip;
 }

@@ -16,5 +16,4 @@ final class HtmlClean extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\HtmlClean::class)->post($payload);
     }
-
 }

@@ -16,5 +16,4 @@ final class GeocodeAddress extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\GeocodeAddress::class)->get($params);
     }
-
 }

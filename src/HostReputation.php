@@ -16,5 +16,4 @@ final class HostReputation extends \NeutrinoAPISDK\NeutrinoAPISDK
     {
         return self::client()->resource(\NeutrinoAPISDK\Resources\HostReputation::class)->get($params);
     }
-
 }

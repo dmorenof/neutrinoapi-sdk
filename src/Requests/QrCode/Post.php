@@ -7,26 +7,26 @@ namespace NeutrinoAPISDK\Requests\QrCode;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-];
+        'content',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'bg-color' => 'bgColor',
-    'fg-color' => 'fgColor',
-];
+        'bg-color' => 'bgColor',
+        'fg-color' => 'fgColor',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'bgColor' => 'bg-color',
-    'fgColor' => 'fg-color',
-];
+        'bgColor' => 'bg-color',
+        'fgColor' => 'fg-color',
+    ];
 
     protected const array VALIDATION = [
-    'height' => [
-        'format' => 'int32',
-    ],
-    'width' => [
-        'format' => 'int32',
-    ],
-];
+        'height' => [
+            'format' => 'int32',
+        ],
+        'width' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The QR code background color

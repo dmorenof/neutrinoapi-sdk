@@ -7,26 +7,26 @@ namespace NeutrinoAPISDK\GetParams;
 final class GeocodeReverse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'latitude',
-    'longitude',
-];
+        'latitude',
+        'longitude',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'language-code' => 'languageCode',
-        'latitude' => 'latitude',
-        'longitude' => 'longitude',
-        'zoom' => 'zoom',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'language-code' => 'languageCode',
+            'latitude' => 'latitude',
+            'longitude' => 'longitude',
+            'zoom' => 'zoom',
+        ],
+        'header' => [],
+    ];
 
     protected const array PROPERTY_MAP = [
-    'language-code' => 'languageCode',
-];
+        'language-code' => 'languageCode',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'languageCode' => 'language-code',
-];
+        'languageCode' => 'language-code',
+    ];
 
     public ?string $languageCode;
     public string $latitude;

@@ -10,15 +10,15 @@ namespace NeutrinoAPISDK\DTOs;
 final class GeocodeAddressResponse extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'found',
-    'locations',
-];
+        'found',
+        'locations',
+    ];
 
     protected const array VALIDATION = [
-    'found' => [
-        'format' => 'int32',
-    ],
-];
+        'found' => [
+            'format' => 'int32',
+        ],
+    ];
 
     /**
      * The number of possible matching locations found

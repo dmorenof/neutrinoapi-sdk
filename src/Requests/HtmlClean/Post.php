@@ -7,16 +7,16 @@ namespace NeutrinoAPISDK\Requests\HtmlClean;
 final class Post extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'content',
-    'outputType',
-];
+        'content',
+        'outputType',
+    ];
 
     protected const array PROPERTY_MAP = [
-    'output-type' => 'outputType',
-];
+        'output-type' => 'outputType',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'outputType' => 'output-type',
-];
+        'outputType' => 'output-type',
+    ];
 
     /**
      * The HTML content. This can be either a URL to load from, a file upload (multipart/form-data) or an HTML content string

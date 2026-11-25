@@ -7,23 +7,23 @@ namespace NeutrinoAPISDK\GetParams;
 final class EmailValidate extends \Dmorenof\SdkRuntime\DTO
 {
     public const array REQUIRED_FIELDS = [
-    'email',
-];
+        'email',
+    ];
     public const array OPERATION_FIELDS = [
-    'path' => [],
-    'query' => [
-        'email' => 'email',
-        'fix-typos' => 'fixTypos',
-    ],
-    'header' => [],
-];
+        'path' => [],
+        'query' => [
+            'email' => 'email',
+            'fix-typos' => 'fixTypos',
+        ],
+        'header' => [],
+    ];
 
     protected const array PROPERTY_MAP = [
-    'fix-typos' => 'fixTypos',
-];
+        'fix-typos' => 'fixTypos',
+    ];
     protected const array WIRE_PROPERTY_MAP = [
-    'fixTypos' => 'fix-typos',
-];
+        'fixTypos' => 'fix-typos',
+    ];
 
     public string $email;
     public ?bool $fixTypos;
